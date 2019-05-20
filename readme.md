@@ -4,7 +4,7 @@
 
     HTTP头中一般断点下载时才用到`Range`和`Content-Range`实体头，
     `Range`用户请求头中，指定第一个字节的位置和最后一个字节的位置，如`（Range：200-300）`
-    Content-Range用于响应头
+    `Content-Range`用于响应头
 
 - 请求下载整个文件: 
     ~~~
